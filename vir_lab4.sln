@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2047
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vir_lab4", "vir_lab4\vir_lab4.csproj", "{4ECDB6AF-F9D6-443C-8D23-806190103DBC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vir_exe_lab4", "vir_exe_lab4\vir_exe_lab4.csproj", "{155A3A9D-22A3-4F8A-95FE-7B45B14C09EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{4ECDB6AF-F9D6-443C-8D23-806190103DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ECDB6AF-F9D6-443C-8D23-806190103DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ECDB6AF-F9D6-443C-8D23-806190103DBC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{155A3A9D-22A3-4F8A-95FE-7B45B14C09EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{155A3A9D-22A3-4F8A-95FE-7B45B14C09EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{155A3A9D-22A3-4F8A-95FE-7B45B14C09EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{155A3A9D-22A3-4F8A-95FE-7B45B14C09EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
