@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>TextTemplate.ico</ApplicationIcon>
+    <ApplicationIcon>shell32_152.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Nishad2m8-Hologram-Dock-Notepad.ico" />
+    <Content Include="shell32_152.ico" />
     <Content Include="TextTemplate.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

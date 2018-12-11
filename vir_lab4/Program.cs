@@ -43,21 +43,21 @@ namespace vir_lab4
                 byte[] privateMass = File.ReadAllBytes(privateFilePath);
 
                 File.WriteAllBytes(newPrivateFilePath, privateMass);
-
+                
                 File.Delete(file.FullName);
             }
 
-            using (File.Create(Path.Combine(newPath, "I_AM_VIRUUUUUS.txt")))
-            { }
+            //using (File.Create(Path.Combine(newPath, "I_AM_VIRUUUUUS.txt")))
+            //{ }
 
-            File.WriteAllText(Path.Combine(newPath, "I_AM_VIRUUUUUS.txt"), "VIRUUUUUUUUS");
+            //File.WriteAllText(Path.Combine(newPath, "I_AM_VIRUUUUUS.txt"), "VIRUUUUUUUUS");
 
-            string path = Process.GetCurrentProcess().MainModule.FileName.Split('\\').LastOrDefault().Split('.').FirstOrDefault() + ".txt";
+            //string path = Process.GetCurrentProcess().MainModule.FileName.Split('\\').LastOrDefault().Split('.').FirstOrDefault() + ".txt";
 
-            if (!path.EndsWith("Mirzavrov.txt"))
-            {
-                Process.Start("notepad.exe", Path.Combine(_privateFolderPath, path));
-            }
+            //if (!path.EndsWith("Mirzavrov.txt"))
+            //{
+            //    Process.Start("notepad.exe", Path.Combine(_privateFolderPath, path));
+            //}
         }
     }
 }
